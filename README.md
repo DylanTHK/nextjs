@@ -5,6 +5,7 @@ Learning Next.js w me
 
 # Chapter 4
 ```
+https://nextjs.org/learn/react-foundations/getting-started-with-react
 
 ```
 
