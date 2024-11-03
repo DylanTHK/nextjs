@@ -1,12 +1,20 @@
 # nextjs
 Learning Next.js w me
 
+# Questions
+```
+What are routing and how do they relate to pages
+
+```
 
 
 # Chapter 4
 ```
 https://nextjs.org/learn/react-foundations/getting-started-with-react
-
+JSX (extension of JS)
+- allows convenient use of HTML like syntax
+- needs babel to convert html to jsx
+- declarative code (cuts repetitive code)
 ```
 
 # Chapter 3
