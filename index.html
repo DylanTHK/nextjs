@@ -3,25 +3,30 @@
     <div id="app"></div>
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <!-- babel - to decifer html to js language -->
+    <!-- 1. Babel - to decifer html to js language -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <!-- OLD method (Imperative) -->
-    <script type="text/javascript">
-      const app = document.getElementById('app');
-      const header = document.createElement('h1');
-      const text = 'Develop. Preview. Ship.';
-      const headerContent = document.createTextNode(text);
-      header.appendChild(headerContent);
-      app.appendChild(header);
-    </script>
-    <!-- NEW Method (Declarative) -->
+    <!-- 2. NEW Method (Declarative) Note: cant add comments in JSX-->
     <script type="text/jsx">
-      // get html element - div
-      const app = document.getElementById('app');
-      // method to start / control elements in DOM
+      const app = document.getElementById("app");
+      {/* Component #1 - header */}
+      function Header() {
+        return <h1>Develop, Preview, Ship</h1>;
+      }
+      {/* Parent Component - holding header and body */}
+      function HomePage() {
+        return (
+          <div>
+            <Header/>
+            <div>
+              Some random texts
+            </div>
+          </div>
+        );
+      }
+
       const root = ReactDOM.createRoot(app);
-      // displaying the element
-      root.render(<h1>Develop. Preview. Ship.</h1>);
+
+      root.render(<HomePage />);
     </script>
   </body>
 </html>
