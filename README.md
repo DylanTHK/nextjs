@@ -7,6 +7,18 @@ What are routing and how do they relate to pages
 
 ```
 
+# Chapter 5
+```
+Components
+- javascript code
+- functions (returns DOM / JSX)
+    - function name should be CAPITALISED
+Props
+
+State
+
+```
+
 
 # Chapter 4
 ```
