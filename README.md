@@ -3,7 +3,13 @@ Learning Next.js w me
 
 # Questions
 ```
-What are routing and how do they relate to pages
+What are routing and how do they relate to pages?
+
+```
+# Chapter 6
+```
+Props - arguments
+
 
 ```
 
@@ -12,11 +18,7 @@ What are routing and how do they relate to pages
 Components
 - javascript code
 - functions (returns DOM / JSX)
-    - function name should be CAPITALISED
-Props
-
-State
-
+- function name should be CAPITALSED
 ```
 
 
